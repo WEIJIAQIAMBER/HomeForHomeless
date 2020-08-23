@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Volunteer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Volunteer</h2>
+<div>
+    <div class="cards-image-mask">
+        <a href='@Url.Action("Index", "VolunteerCenters")'>
+        <img src='@Url.Content("~/Images/VolunteerCenter.jpg")' alt="VolunteerCenter" class="cards-image-2" />
+        </a>
+        <a href="@Url.Action("Index", "VolunteerCenters")" class="appliance-col-btn btn light outline w-button" style="margin-left:-85px; left:50%; top: 77%">VolunteerCenter</ a>
+    </div>
+</div>
